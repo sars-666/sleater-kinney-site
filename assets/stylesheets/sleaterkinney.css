@@ -10,16 +10,20 @@ background-color: rgb(242,242,252);
     height: 100%;
 }
 
+.banner{
+  position: fixed;
+  top: 0px;
+  width: 1366 px;
+}
+
 .overlay{
   position: absolute;
   z-index: 1;
 }
 
-.banner{
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  height: 100%;
+.row{
+  z-index: 3;
+  margin: -15%;
 }
 
 ul {
@@ -29,16 +33,27 @@ ul {
   color: rgb(207,208,212);
   text-transform: uppercase;
   text-align: center;
-  letter-spacing: 2pt;
-  margin: 0 35 px;
-}
-
-li{
-  display: inline-block;
+  letter-spacing: 1.5pt;
+  word-spacing: 30px;
+  font-size: 90%;
+  border-left: 10%;
+  border-right:10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: -1.5%;
 }
 
 .logo{
   display: inline-block;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 250%;
+}
+
+li{
+  display: inline-block;
+  float: center;
 }
 
 .h1 {font-family: 'Barlow Condensed', sans-serif;
@@ -51,7 +66,7 @@ font-size: 300%;
   padding-right: 15%;
   padding-left: 15%;
   height: 75%;
-  Width: 75%;
+  width: 75%;
 }
 
 p {font-family: 'Barlow', sans-serif;
