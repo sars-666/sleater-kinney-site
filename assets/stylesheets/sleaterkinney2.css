@@ -1,5 +1,10 @@
 .html {
-background-color: rgb(242,242,252);
+background-color: rgb(242,242,242);
+}
+
+.index-image {
+  background-image: url(../images/home-page-background-01-01.jpg);
+  width: 100%;
 }
 
 .bg-img {
@@ -9,6 +14,11 @@ background-color: rgb(242,242,252);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+.index-container{
+    position: relative;
+    text-align: center;
 }
 
 .container {
@@ -250,11 +260,91 @@ margin-top: 200px;
   ease-out;
 }
 
-.footer {
+.lb-nav {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: 10;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 10px;
+  background-color: #FFFFFF;
+  padding: 10px;
+  align; center;
+}
+
+.grid-container > div {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.product-image-wrapper{
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+.merch-album{
+  display: table-row;
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.merch-description{
+  display: block;
+  padding-left: 10px;
+}
+
+.h5{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: left;
+  font-size: 1.2rem;
+  color: rgb(3,3,3);
+  line-height: .6;
+}
+
+.h6{
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: left;
+  font-size: 50%;
+  line-height: 10%;
+  }
+
+.h7{
+  text-align: center;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.895rem;
+  color: rgb(207,208,212);
+  text-transform: uppercase;
+  vertical-align: middle;
+  letter-spacing: .5pt;
+}
+
+.inner-box{
+  background: rgba(0,0,0);
+  border: 1px solid;
+  width: 60%;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+
+
+
+/* .footer {
   background-image: url(../images/banner_2.jpg);
-   position: absolute;
+   position: relative;
    left: 0;
    bottom: 0;
    width: 100%;
    min-height: 50px;
-}
+} */
